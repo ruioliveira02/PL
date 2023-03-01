@@ -1,5 +1,7 @@
+import sys
+
 def main():
-    data = input()
+    data = open(sys.stdin).read()
     s = ""
     n = len(data)
     on = True
